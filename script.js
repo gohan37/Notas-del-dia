@@ -13,7 +13,7 @@ sendButton.addEventListener('click', async () => {
 
   try {
     // Enviar texto al backend
-    const response = await fetch('http://localhost:3000/save-text', {
+    const response = await fetch('https://notas-del-dia-backend.onrender.com', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
